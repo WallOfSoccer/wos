@@ -1,0 +1,119 @@
+a {
+    font-family: 'Tajawal', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+}
+body{
+    background: #536976; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #536976, #292e49); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #536976, #292e49); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+html {
+    --primary-color: #21325E;
+    --light-primary-color: #11468F;
+    --secondary-color: #E3BEC6;
+    --white: #eeeeee;
+    --third-color: #7C99AC;
+}
+
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-list {
+    list-style: none;
+}
+
+.navbar-item {
+    display: inline-block;
+    height: 50px;
+    width: 6rem;
+    line-height: 50px;
+    text-align: center;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: var(--white);
+    display: block;
+}
+
+.navbar-item:hover {
+    background-color: var(--light-primary-color);
+}
+/* cards */
+
+.cards {
+    width: 5rem 2rem;
+    text-align: center;
+}
+.card{
+    width: 30vw;
+    background-color:#7C99AC;
+    margin: 2rem;
+    display: inline-block;
+    transition: .2s;
+}
+.card-text{
+    padding: .5rem;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-img {
+    width: 100%;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width: 650px) {
+    .navbar-item {
+        display: inline-block;
+        width: 23%;
+
+    }
+     .card {
+        width: 82vw;
+        display: inline-block;
+
+     }
+}
+.footer{
+    background-color:#21325E;
+    padding: 1em;
+    color: #eeeeee;
+}
+
+.footer-right{
+    text-align: center;
+    
+}
+.footer-center{
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+}
+.footer-link{
+    color: #eeeeee;
+}
+.footer-link:hover {
+    color: #eeeeee;
+    width: 2vw;
+}
+.footer-left{
+    text-align: center;
+}
+.footer-email{
+    color: #eeeeee;
+}
